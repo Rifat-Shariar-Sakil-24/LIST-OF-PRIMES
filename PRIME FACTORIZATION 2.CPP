@@ -29,7 +29,6 @@ void factorization(ll n)
 }
 int main()
 {
-
     int t; cin >> t;
     while(t--)
     {
