@@ -2,7 +2,8 @@
 #define ll long long
 #define MAX 1000000
 using namespace std;
- vector<bool> isprime(MAX+1),primes;
+ vector<bool> isprime(MAX+1);
+vector <ll> primes;
 
 void sieve()
 {
