@@ -19,7 +19,7 @@ void sieve()
     }
 
     primes.push_back(2);
- 
+
     for(int i=3; i<=MAX; i+=2)
     {
         if(isprime[i]==false) primes.push_back(i);
